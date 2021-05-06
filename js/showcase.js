@@ -1,6 +1,7 @@
 const infoBtn = document.querySelector("#infoBtn");
 const aboutBtn = document.querySelector("#aboutBtn");
 const workBtn = document.querySelector("#workBtn");
+const aboutWork = document.querySelector(".work");
 const contactBtn = document.querySelector("#contactBtn");
 const infoSection = document.querySelector("#infoSection");
 const aboutSection = document.querySelector("#aboutSection");
@@ -60,6 +61,20 @@ contactBtn.addEventListener("click", function() {
     infoBtn.lastChild.style.display = "none"
 
     workBtn.classList.remove("linkActive");
+    infoBtn.classList.remove("linkActive");
+    aboutBtn.classList.remove("linkActive");
+})
+
+aboutWork.addEventListener("click", function() {
+    workSection.style.display = "flex";
+    workBtn.lastChild.style.display = "block";
+    aboutSection.style.display = "none";
+    aboutBtn.lastChild.style.display = "none";
+    infoSection.style.display = "none";
+    infoBtn.lastChild.style.display = "none"
+    contactSection.style.display = "none";
+
+    workBtn.classList.add("linkActive");
     infoBtn.classList.remove("linkActive");
     aboutBtn.classList.remove("linkActive");
 })
