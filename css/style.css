@@ -30,7 +30,12 @@ header {
 }
 
 .logo {
+    width: 65px;
+    height: 65px;
     cursor: pointer;
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .navLinks {
