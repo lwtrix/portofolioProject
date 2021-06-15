@@ -452,7 +452,7 @@ header {
     opacity: 0.8;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1445px) {
     #aboutSection {
         flex-direction: column;
         align-items: center;
@@ -487,7 +487,7 @@ header {
 }
 
 
-@media (max-width:678px) {
+@media (max-width: 678px) {
     .experience {
         width: 350px;
         height: 350px;
@@ -514,7 +514,7 @@ header {
     margin-bottom: 20px;
     padding: 10px 0;
     display: block;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #bbbbbb;
 }
 
 .moreInfo .text {
@@ -614,6 +614,18 @@ header {
 } 
 
 @media (max-width: 1640px) {
+    .moreInfo {
+        text-align: center;
+    }
+
+    .moreInfo .title {
+        font-size: 34px;
+    }
+
+    .moreInfo .text {
+        font-size: 18px;
+    }
+
     #workSection {
         flex-direction: column;
         align-items: center;
