@@ -274,6 +274,17 @@ header {
     }
 }
 
+@media (max-width: 450px) {
+    .resume {
+        width: 300px;
+        height: 150px;
+    }
+    
+    .resume .title {
+        font-size: 44px;
+    }
+}
+
 /* TECHNOLOGIES */
 
 .techs {
@@ -312,6 +323,14 @@ header {
 @media (max-width: 1050px) {
     .techs {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .techs {
+        width: 300px;
+        height: 150px;
+        margin-top: 20px;
     }
 }
 
@@ -357,6 +376,19 @@ header {
 
 .experience a:hover {
     background-color: rgba(96, 129, 172, 0.8);
+}
+
+@media (max-width: 450px) {
+    .experience {
+        width: 300px;
+        height: 150px;
+    }
+    
+    .experience .title {
+        font-size: 44px;
+    }
+
+    
 }
 
 /* ABOUT ME */ 
@@ -452,7 +484,7 @@ header {
     opacity: 0.8;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1445px) {
     #aboutSection {
         flex-direction: column;
         align-items: center;
@@ -487,12 +519,32 @@ header {
 }
 
 
-@media (max-width:678px) {
+@media (max-width: 678px) {
     .experience {
         width: 350px;
         height: 350px;
     }
 
+}
+
+@media (max-width: 450px) {
+    .aboutMe {
+        width: 350px;
+        height: 250px;
+    }
+
+    .aboutMe .icons {
+        width: 100px;
+    }
+
+    .aboutMe .more {
+        padding: 0;
+    }
+
+    .aboutMe .more .location {
+        padding-right: 15px;
+        margin-left: 10px;
+    }
 }
 
 /* PROJECTS */
@@ -658,6 +710,10 @@ header {
         height: 250px;
         text-align: center;
     }
+}
+
+@media (max-width: 450px) {
+    
 }
 
 /* CONTACT SECTION */
